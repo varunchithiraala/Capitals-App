@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.capitals-app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-container {
+  background-color: #f8fafc;
+  padding: 20px;
+  border-radius: 16px;
+  width: 95%;
+  max-width: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-container {
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    max-width: 520px;
+  }
+}
+
+.capitals-heading {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-heading {
+    text-align: left;
+    font-size: 32px;
+  }
+}
+
+.capitals-question-container {
+  display: flex;
+  align-items: center;
+}
+
+.capitals-select {
+  background-color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+  height: 40px;
+  width: 100px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 4px;
+  padding-top: 4px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-select {
+    font-size: 16px;
+    width: 180px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.capitals-option {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-option {
+    font-size: 14px;
+  }
+}
+
+.capitals-question {
+  color: #000000;
+  font-family: "Roboto";
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-question {
+    font-size: 16px;
+  }
+}
+
+.capitals-country {
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .capitals-country {
+    font-size: 24px;
+  }
+}
